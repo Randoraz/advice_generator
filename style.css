@@ -64,7 +64,13 @@
     padding: 2rem;
     border: 0.5rem solid #CCDAE0;
     border-radius: 1rem;
-  }
+    cursor: pointer;
+}
+
+#button:active {
+  box-shadow: 0 0.2rem 0 0 black;
+  transform: TranslateY(0.3rem);
+}
   
   footer {
     position: fixed;
